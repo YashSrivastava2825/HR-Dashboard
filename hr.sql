@@ -4,9 +4,6 @@ use projects;
 
 SELECT * FROM hr;
 
-ALTER TABLE hr
-CHANGE COLUMN ï»¿id emp_id VARCHAR(20) NULL;
-
 DESCRIBE hr;
 
 SELECT birthdate FROM hr;
